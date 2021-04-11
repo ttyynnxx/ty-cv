@@ -18,7 +18,7 @@ var option = {
         { name: '静态页面', max: 100},
         { name: '编程基础', max: 100},
         { name: 'Vue', max: 100},
-        { name: 'React', max: 100},
+        // { name: 'React', max: 100},
         { name: '项目开发', max: 100},
         { name: '沟通能力', max: 100}
       ]
@@ -29,7 +29,7 @@ var option = {
       // areaStyle: {normal: {}},
       data: [
           {
-              value: [100, 70, 90, 80, 85, 70],
+              value: [100, 70, 90, 85, 70],
               name: '能力雷达'
           }
       ]

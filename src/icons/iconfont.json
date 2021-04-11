@@ -1,0 +1,37 @@
+{
+  "id": "2478990",
+  "name": "简历",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "20835379",
+      "name": "icon_commonly_amountrefresh",
+      "font_class": "icon_commonly_amountrefresh",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "20835401",
+      "name": "icon_commonly_tag",
+      "font_class": "icon_commonly_tag",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "20835412",
+      "name": "icon_commonly_user",
+      "font_class": "icon_commonly_user",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "20835444",
+      "name": "icon_commonly_location",
+      "font_class": "icon_commonly_location",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    }
+  ]
+}

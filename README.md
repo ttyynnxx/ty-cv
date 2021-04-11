@@ -1,4 +1,4 @@
-网页预览：http://fangyinghang.com/cv-2020/dist/index.html
+网页预览：https://ttyynnxx.github.io/ty-cv/dist/index.html
 
 ## 开发模式
 

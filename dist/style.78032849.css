@@ -1,0 +1,307 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  margin: 20px 0;
+}
+
+article {
+  width: 21cm;
+  min-height: 29.7cm;
+  background: white;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.sectionTitle {
+  border-bottom: 1px solid #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.sectionTitle span {
+  display: inline-block;
+  background-color: #4183ff;
+  color: #fff;
+  font-size: 20px;
+  padding: 4px 20px;
+  border-radius: 2px 2px 0 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding: 0 14px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+p {
+  margin: 0.3em 0;
+}
+
+h1 {
+  font-size: 25px;
+  margin-top: 0;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+ol,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  color: #666;
+}
+
+strong {
+  font-weight: normal;
+  color: #f60;
+}
+
+a {
+  color: #4183ff;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+strong {
+  font-weight: normal;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* 个人信息 */
+.bio {
+  position: relative;
+}
+
+.bioItem {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bioItem li {
+  width: 50%;
+  line-height: 1.5;
+  color: #232323;
+}
+
+.bioItem li span {
+  display: inline-block;
+  min-width: 70px;
+  text-align: left;
+  color: #999;
+  margin-right: 12px;
+}
+
+.bio img {
+  position: absolute;
+  top: -13px;
+  right: 0;
+}
+
+/* 求职意向 */
+
+.work ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.work ul li {
+  line-height: 36px;
+  width: 25%;
+  text-align: center;
+  color: #232323;
+}
+
+.work ul li i {
+  margin-right: 6px;
+  color: #999;
+}
+
+/* 项目经历 */
+.projectItem ul {
+  padding-left: 30px;
+}
+
+.projectItem ul li {
+  line-height: 1.5em;
+}
+
+.projects strong {
+  color: #f60;
+}
+
+/* 技能 */
+#skills {
+  width: 500px;
+  height: 270px;
+}
+
+@media print {
+  #skills {
+    display: none;
+  }
+}
+
+.skills > .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills > .wrapper > :first-child {
+  margin-right: 24px;
+}
+
+.skills > .wrapper > ul {
+  color: #666;
+  padding-left: 20px;
+}
+
+.skills > .wrapper strong {
+  color: #f60;
+}
+
+.skills > .wrapper > ul > li {
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+/* 开源项目 */
+.page2 {
+  page-break-before: always;
+  margin-top: 20px;
+}
+
+.page2 > ul {
+  padding-left: 30px;
+}
+
+.openSource > ul > li {
+  margin-bottom: 24px;
+}
+
+.openSource header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 工作经历 */
+.jobsItem ul {
+  padding-left: 30px;
+}
+
+.jobsItem ul li {
+  line-height: 1.5em;
+}
+
+.jobs > ol > li {
+  margin: 12px 0;
+}
+
+.jobs header {
+  display: flex;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.jobs header > h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.jobs header > h4 {
+  margin-left: 1em;
+  font-size: 18px;
+}
+
+.jobs header > span {
+  font-size: 18px;
+  margin-left: auto;
+}
+
+/* 其他 */
+.others ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 30px;
+}
+
+.others ul li {
+  width: 50%;
+  line-height: 1.5em;
+}
+
+.others ul li > a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.others ul li span {
+  color: #232323;
+}
+
+.education p {
+  padding-left: 16px;
+}
+
+@media (max-width: 500px) {
+  body {
+    margin: 0;
+  }
+
+  article {
+    width: auto;
+    height: auto;
+  }
+
+  .bio img {
+    display: none;
+  }
+
+  .skills .wrapper {
+    flex-direction: column;
+  }
+
+  #skills {
+    width: auto;
+  }
+
+  .jobs header {
+    flex-direction: column;
+  }
+
+  .jobs header > h3,
+  .jobs header > h4,
+  .jobs header > span {
+    margin: 0;
+  }
+}
+
+
+/*# sourceMappingURL=/style.78032849.css.map */

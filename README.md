@@ -10,5 +10,5 @@ parcel src/index.html
 ## 部署网页
 
 ```
-parcel build src/index.html --public-url .
+npm run build
 ```
